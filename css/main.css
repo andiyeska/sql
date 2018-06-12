@@ -325,6 +325,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 .header-v2 .wrap-menu-desktop {
     background-color: #fff;
     top: 0;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .header-v3 .wrap-menu-desktop {
@@ -2106,25 +2107,36 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 .table-shopping-cart .column-2 {
-    width: 220px;
+    min-width: 60px;
+    max-width: 120px;
     font-size: 15px;
+    padding-right: 50px;
 }
 
 .table-shopping-cart .column-3 {
-    width: 120px;
-    font-size: 16px;
+    max-width: 75px;
+    font-size: 16px;    
+    text-align: left;
 }
 
 .table-shopping-cart .column-4 {
     width: 145px;
-    text-align: right;
+    padding-left: 40px;
+    text-align: center;
 }
 
 .table-shopping-cart .column-5 {
-    width: 172px;
-    padding-right: 50px;
-    text-align: right;
+    min-width: 80px;
+    max-width: 150px;
+    text-align: left;
+    padding-left: 25px;
     font-size: 16px;
+}
+
+.table-shopping-cart .column-6 {
+    width: 40px;
+    padding-left: 40px;
+    padding-right: 50px;
 }
 
 .table-shopping-cart .table_row {
@@ -2372,6 +2384,10 @@ input.num-product::-webkit-inner-spin-button {
 
 .cl12 {
     color: #ccc;
+}
+
+.cl13 {
+    color: red;
 }
 
 
@@ -2871,6 +2887,13 @@ input.num-product::-webkit-inner-spin-button {
     max-width: 286px;
 }
 
+.size-219 {
+    width: 97px;
+}
+
+.size-220 {
+    max-width: 288px;
+}
 
 
 
@@ -3067,7 +3090,11 @@ input.num-product::-webkit-inner-spin-button {
     border-radius: 2px;
 }
 
-
+/* Custom */
+/*---------------------------------------------*/
+.bor20 {
+    border-right: 1px solid #e5e5e5;
+}
 
 /*==================================================================
  HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW 
